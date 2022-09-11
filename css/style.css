@@ -106,7 +106,7 @@ color: var(--black);
   
   color: var(--black);
   letter-spacing: 0.02em;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: 
 color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
  }
@@ -242,7 +242,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
 }
 
-.portfolio_item:hover .overlay{
+.galery_link:hover .overlay, .galery_link:focus .overlay{
   transform: translateY(0);
 }
 
@@ -648,7 +648,7 @@ margin-bottom: 50px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--white);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social_icon{
